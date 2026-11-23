@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <!--Defines characters encoding and mobile responsiveness -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Browser tab title -->
+         <title>NETRA Robot Monitoring System</title>
+         <!-- Connects the external CSS file-->
+          <link rel="stylesheet" href="style.css">
+         </head>
+    <body>
+        <!-- ============ HEADER SECTION ============ -->
+         <!-- Contain project logo, navigation , system status and misssion button -->
+          <header class="topbar">
+            <div class="brand">
+            <div class="brand-logo"> N
+
+            </div>
+            <div>
+                <h1>NETRA</h1>
+                <P>Robo Mission Control</P>
+            </div>
+            </div>
+            <nav>
+                <a href="#dashboard">Dashboard</a>
+                 <a href="#fleet">Fleet</a>
+                  <a href="#telemetry">Telemetry</a>
+                   <a href="#alerts">Alerts</a>
+            </nav>
+            <div class="header-right">
+                <span class="online-dot"></span>
+                <span>SYSTEM ONLINE</span>
+                <strong id="clock">--:</strong>
+            </div>
+            <button id="dispatch-open" type="button">+Dispatch Mission</button>
+          </header>
+                   
+// Updates the dashboard clock
+
+</script>
+
+          <main class="page">
+            <section class="kpi-grid">
+                <article class="kpi-card">
+                    <span>ROVER ONLINE</span>
+                    <h2 id="online-count">6/6</h2>
+                    <p>Active rover units</p>
+
+                </article>
+                 <article class="kpi-card">
+                     <span>AVERAGE BATTERY</span>
+                    <h2 id="average-battery">76%</h2>
+                    <p>Fleet battery level</p>
+
+                </article>
+                 <article class="kpi-card">
+                     <span>OPEN ALERTS</span>
+                    <h2 id="alert count">0</h2>
+                    <p>Requires attention</p>
+
+                </article>
+                 <article class="kpi-card">
+                     <span>DISTANCE TODAY</span>
+                    <h2 id="distance">13.6km</h2>
+                    <p>Total simulated distance</p>
+
+                </article>
+            </section>
+<section id="dashboard" class="section-heading">
+    <div>
+        <h2>Fleet Overview</h2>
+        <p>Monitor all the campus rover activities</p>
+        </div>
+        <span class="live-tag" >. LIVE MONITORING</span>
+
+</section>
+<section class="panel-id"="fleet">
+    <div class="panel title"><div><h2>Fleet Management</h2></div>
+      <p>Campus rover information</p>
+    
+    <input type="search" id=" rover-search" placeholder="Search rover or Zone">
+</div>
+          <script src="script.js"></script>
+
+    </body>
+</html>
